@@ -1,6 +1,7 @@
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;
+var time =new Date();
 
 if (hourNow > 18){
    greeting = " Good evening"; 
@@ -14,3 +15,4 @@ if (hourNow > 18){
 }
 
 document.write('<h3>' + greeting + '</h3>');
+document.write('<h4>' + time + '</h4>');
